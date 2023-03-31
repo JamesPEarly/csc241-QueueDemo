@@ -47,5 +47,18 @@ public class IntQueue {
         }
     }
 
+    // peek - Return first element if present
+    public Integer peek(){
+        // Examine front
+        if (front == null) {
+            // Queue is empty
+            return null;
+        } else {
+            // Return the first value
+            return front.value;
+        }
+    }
+
+
 
 }
